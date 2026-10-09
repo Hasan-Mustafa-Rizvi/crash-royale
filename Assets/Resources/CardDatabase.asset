@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e89bf267dab365498dea94c06a6df9e, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.CardDatabase
+  cards:
+  - {fileID: 11400000, guid: c3c03ebd1f6ba3446b3e36b98d0c66cc, type: 2}
+  - {fileID: 11400000, guid: fb8ae37dd8ba7ef4cbb8cf9d95de78d2, type: 2}
+  - {fileID: 11400000, guid: 5fe69cd04003d44409e4ac8c69557b41, type: 2}
+  - {fileID: 11400000, guid: 6cbf2679729f4de4b87f241ff9066549, type: 2}
+  - {fileID: 11400000, guid: de53a43e1b8d9af42ae680983c0f3af0, type: 2}
+  - {fileID: 11400000, guid: bf74e1e3f0948344b9c27c99b3d7f41e, type: 2}
+  defaultDeck:
+  - brump
+  - jitter
+  - lancer
+  - kaboom
+  emotes:
+  - id: gg
+    text: GG!
+    icon: {fileID: 0}
+    price: 0
+  - id: oops
+    text: Oops!
+    icon: {fileID: 0}
+    price: 0
+  - id: wow
+    text: Wow!
+    icon: {fileID: 21300000, guid: a0e5c57e951c82146bb8ef64904e1302, type: 3}
+    price: 0
+  - id: laugh
+    text: Hehehe
+    icon: {fileID: 21300000, guid: 8614cc64ef718c14fb05c60b5b349359, type: 3}
+    price: 100
+  - id: angry
+    text: Grr!
+    icon: {fileID: 21300000, guid: 6d6dc57c93d6cfb43952452199238286, type: 3}
+    price: 100
+  - id: cry
+    text: Noooo
+    icon: {fileID: 21300000, guid: 8c9601667c5937240a9b6159828f2b02, type: 3}
+    price: 120
+  aiDecks:
+  - cardIds:
+    - brump
+    - archers
+    - jitter
+    - kaboom
+  - cardIds:
+    - lancer
+    - barrelbro
+    - archers
+    - jitter
+  - cardIds:
+    - brump
+    - lancer
+    - kaboom
+    - jitter
+  - cardIds:
+    - barrelbro
+    - lancer
+    - kaboom
+    - archers

@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e815ab1ceff64439db03d6fada85ef, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Audio.SoundLibrary
+  entries:
+  - id: deploy
+    clips:
+    - {fileID: 8300000, guid: a9bc85fdb6a7ed94493260786e383bd7, type: 3}
+    volume: 0.7
+    pitchMin: 0.95
+    pitchMax: 1.08
+    minInterval: 0.05
+  - id: hit
+    clips:
+    - {fileID: 8300000, guid: f3a27e32ebd447d4aaf4a11e3c9d49af, type: 3}
+    - {fileID: 8300000, guid: 09a9844299b6c7c4c969f54f9d19ba30, type: 3}
+    - {fileID: 8300000, guid: 32a043a621c7c674d861edf9cd966182, type: 3}
+    volume: 0.55
+    pitchMin: 0.9
+    pitchMax: 1.12
+    minInterval: 0.04
+  - id: sword
+    clips:
+    - {fileID: 8300000, guid: fa4600e7a948dcf4a93a2abed576cf30, type: 3}
+    - {fileID: 8300000, guid: bfab8db746c3dc64b9ee93acca006f5e, type: 3}
+    volume: 0.42
+    pitchMin: 0.92
+    pitchMax: 1.1
+    minInterval: 0.05
+  - id: arrow_shoot
+    clips:
+    - {fileID: 8300000, guid: 0d048d80f7e3bd44f9b68b262b784ae5, type: 3}
+    - {fileID: 8300000, guid: 4e16afdcdfd0a2347986617872a88568, type: 3}
+    volume: 0.38
+    pitchMin: 0.92
+    pitchMax: 1.1
+    minInterval: 0.05
+  - id: arrow_hit
+    clips:
+    - {fileID: 8300000, guid: 6fcaa2b047578d948856367f95fa822c, type: 3}
+    volume: 0.32
+    pitchMin: 0.9
+    pitchMax: 1.15
+    minInterval: 0.04
+  - id: throw
+    clips:
+    - {fileID: 8300000, guid: dcde86f804d993f48bc20a856aa51965, type: 3}
+    volume: 0.45
+    pitchMin: 0.95
+    pitchMax: 1.1
+    minInterval: 0.05
+  - id: explosion
+    clips:
+    - {fileID: 8300000, guid: 75c87e9c4547a0945ad2c815847665ed, type: 3}
+    - {fileID: 8300000, guid: 0e4daef5755058c4285d7e8ca415dde0, type: 3}
+    volume: 0.75
+    pitchMin: 0.9
+    pitchMax: 1.08
+    minInterval: 0.06
+  - id: tower_shot
+    clips:
+    - {fileID: 8300000, guid: aeb00fa8d4d42bb4ba75ccd823866254, type: 3}
+    volume: 0.22
+    pitchMin: 0.95
+    pitchMax: 1.1
+    minInterval: 0.05
+  - id: tower_destroyed
+    clips:
+    - {fileID: 8300000, guid: 503a734fb6f2b8249a3c1cb0d2034b57, type: 3}
+    volume: 0.95
+    pitchMin: 0.97
+    pitchMax: 1.02
+    minInterval: 0.2
+  - id: unit_death
+    clips:
+    - {fileID: 8300000, guid: 87cdee3935ab2344cbd5ce54e805820e, type: 3}
+    volume: 0.4
+    pitchMin: 0.9
+    pitchMax: 1.15
+    minInterval: 0.04
+  - id: click
+    clips:
+    - {fileID: 8300000, guid: 9fc57e1743182444f957c827927b0c12, type: 3}
+    volume: 0.55
+    pitchMin: 0.98
+    pitchMax: 1.04
+    minInterval: 0.03
+  - id: card_select
+    clips:
+    - {fileID: 8300000, guid: bf7cf28fb0baa8d43843fb2100f7e17c, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1.06
+    minInterval: 0.03
+  - id: invalid
+    clips:
+    - {fileID: 8300000, guid: e215a859b8975d14cae4a22ed603af6f, type: 3}
+    volume: 0.45
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.15
+  - id: coin
+    clips:
+    - {fileID: 8300000, guid: a2d80d8e735a18349aa9453cf22a8cdc, type: 3}
+    volume: 0.6
+    pitchMin: 1
+    pitchMax: 1.04
+    minInterval: 0.05
+  - id: purchase
+    clips:
+    - {fileID: 8300000, guid: f11827fab73eadf468d3ca1f60790beb, type: 3}
+    volume: 0.7
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.1
+  - id: crown
+    clips:
+    - {fileID: 8300000, guid: 14623a7f486479148b6a7786c80febd2, type: 3}
+    volume: 0.75
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.1
+  - id: emote
+    clips:
+    - {fileID: 8300000, guid: c265555183207d44aae504e9a8bf8f11, type: 3}
+    volume: 0.6
+    pitchMin: 0.95
+    pitchMax: 1.1
+    minInterval: 0.1
+  - id: countdown
+    clips:
+    - {fileID: 8300000, guid: 8963b950e3e40b848befa1fb71875787, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.2
+  - id: battle_start
+    clips:
+    - {fileID: 8300000, guid: 1eb34fbddf4656d4887b4fdb6e2b09b3, type: 3}
+    volume: 0.75
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.5
+  - id: double_elixir
+    clips:
+    - {fileID: 8300000, guid: 10bb9319369f4a3429f9d7a48340a226, type: 3}
+    volume: 0.7
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.5
+  - id: overtime
+    clips:
+    - {fileID: 8300000, guid: 30017ad0f939cf941b146a1a1eb3fe7a, type: 3}
+    volume: 0.7
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 0.5
+  - id: victory
+    clips:
+    - {fileID: 8300000, guid: 2f2f4ff6c99259b46b5f4389585a95da, type: 3}
+    volume: 0.85
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 1
+  - id: defeat
+    clips:
+    - {fileID: 8300000, guid: 452d780566883f549ac46086b7b55f01, type: 3}
+    volume: 0.8
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 1
+  - id: draw
+    clips:
+    - {fileID: 8300000, guid: ef0c1003efd75da4faf0cfe321c3b8d4, type: 3}
+    volume: 0.8
+    pitchMin: 1
+    pitchMax: 1
+    minInterval: 1
+  menuMusic: {fileID: 8300000, guid: 158e4ba4a2545c645b5bb275e73290f3, type: 3}
+  battleMusic: {fileID: 8300000, guid: a3950149738545b4badb4a5641f6ba0b, type: 3}
+  musicGain: 0.75

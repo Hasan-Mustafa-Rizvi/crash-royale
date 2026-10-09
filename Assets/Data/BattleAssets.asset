@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52ed97c6bbe9a84eb4114ec3ad54787, type: 3}
+  m_Name: BattleAssets
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.BattleAssets
+  database: {fileID: 11400000, guid: 203d99bc4a639a849a4ea494dc7444ab, type: 2}
+  unitPrefab: {fileID: 3564282369496631785, guid: 6b50c617594d04744b20aae10a6f1c02, type: 3}
+  spawnFx: {fileID: 6284246029779797122, guid: ad3c319a88638b34584885bbc2e6bbc2, type: 3}
+  deathFx: {fileID: 3220160882900613081, guid: 7499f73a886ea3d4a90819421e14e302, type: 3}
+  explosionFx: {fileID: 5633464329941323779, guid: 9d39b21b3c417a1449fbc63b233ddead, type: 3}
+  towerExplosionFx: {fileID: 5633464329941323779, guid: 9d39b21b3c417a1449fbc63b233ddead, type: 3}
+  hitFx: {fileID: 841471130281927292, guid: a31b6d7366c9c3c46ba64aa97df0314b, type: 3}

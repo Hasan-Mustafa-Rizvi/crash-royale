@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b70710228659845b7f032fde1cfca1, type: 3}
+  m_Name: Torch_Red
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.UnitSkin
+  idle:
+    frames:
+    - {fileID: -454545872, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -931077880, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 2071148127, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1607081946, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 178742952, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1094804495, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -2092593550, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    fps: 9
+    loop: 1
+    eventFrame: -1
+  run:
+    frames:
+    - {fileID: -639435484, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 2031259590, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1185514285, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1761402586, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 935554453, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 72989157, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    fps: 12
+    loop: 1
+    eventFrame: -1
+  attackSide:
+    frames:
+    - {fileID: 715739594, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 810261120, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1676604385, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 873079456, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -1234230657, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1017351241, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    fps: 14
+    loop: 0
+    eventFrame: 3
+  attackUp:
+    frames:
+    - {fileID: -1655954734, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -132362461, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1297378391, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -1797307451, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 278750131, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1587808958, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    fps: 14
+    loop: 0
+    eventFrame: 3
+  attackDown:
+    frames:
+    - {fileID: 2115161228, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 214447898, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1515182303, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -823878835, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: -518342017, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    - {fileID: 1359918499, guid: 4141d3fb8e5a5f641be8785af3495226, type: 3}
+    fps: 14
+    loop: 0
+    eventFrame: 3
+  special:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1

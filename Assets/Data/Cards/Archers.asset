@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad1c7dbb4e096540863886e28ce4e75, type: 3}
+  m_Name: Archers
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.CardData
+  id: archers
+  displayName: Archers
+  description: A pair of sharpshooters. Keep them behind a tank or a tower.
+  portrait: {fileID: 21300000, guid: 1b4291a8e3e3ac94383938509adbaf8b, type: 3}
+  fallbackPortrait: {fileID: 0}
+  rarity: 0
+  role: 4
+  elixirCost: 3
+  unlockedByDefault: 0
+  unlockPrice: 250
+  unitCount: 2
+  formationSpacing: 0.55
+  deployTime: 1
+  maxHealth: 230
+  damage: 55
+  hitSpeed: 1
+  attackRange: 2.6
+  sightRange: 5
+  moveSpeed: 0.55
+  radius: 0.2
+  mass: 0.8
+  targets: 0
+  attackKind: 1
+  splashRadius: 0
+  projectilePrefab: {fileID: 4080507852573663631, guid: bd51d2069b09cd242a588edc0ab411b8, type: 3}
+  projectileOrigin: {x: 0.26, y: 0.52}
+  blueSkin: {fileID: 11400000, guid: b4ace8a46ef04644b91c8039e92dc860, type: 2}
+  redSkin: {fileID: 11400000, guid: b8e908ce81a3c2441bbe7ba503017733, type: 2}
+  fallbackBlueSkin: {fileID: 0}
+  fallbackRedSkin: {fileID: 0}
+  fallbackTint: {r: 1, g: 1, b: 1, a: 1}
+  visualScale: 0.95
+  attackSfx: arrow_shoot
+  impactSfx: 

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b70710228659845b7f032fde1cfca1, type: 3}
+  m_Name: TNT_Red
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.UnitSkin
+  idle:
+    frames:
+    - {fileID: -447026147, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 978223719, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 1140381840, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 517196991, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 630084240, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 1733196724, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    fps: 8
+    loop: 1
+    eventFrame: -1
+  run:
+    frames:
+    - {fileID: 1263379533, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: -971059456, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: -1146925911, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 75452177, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 1991530801, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 504502547, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  attackSide:
+    frames:
+    - {fileID: 2107735506, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 1373471477, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 124817292, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 1840578859, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 524429538, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 953036631, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    - {fileID: 1156345391, guid: 677922805f6c0e141bf768f15f5d00b7, type: 3}
+    fps: 12
+    loop: 0
+    eventFrame: 4
+  attackUp:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  attackDown:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  special:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1

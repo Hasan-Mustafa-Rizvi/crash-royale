@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad1c7dbb4e096540863886e28ce4e75, type: 3}
+  m_Name: Brump
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.CardData
+  id: brump
+  displayName: Brump
+  description: A walking wall of armor. Ignores troops and marches straight for your
+    towers.
+  portrait: {fileID: 21300000, guid: 3e4847f5fcec05d42a1437796000b7bc, type: 3}
+  fallbackPortrait: {fileID: 0}
+  rarity: 1
+  role: 0
+  elixirCost: 5
+  unlockedByDefault: 1
+  unlockPrice: 0
+  unitCount: 1
+  formationSpacing: 0.45
+  deployTime: 1
+  maxHealth: 2100
+  damage: 130
+  hitSpeed: 1.5
+  attackRange: 0.3
+  sightRange: 4.5
+  moveSpeed: 0.42
+  radius: 0.32
+  mass: 6
+  targets: 1
+  attackKind: 0
+  splashRadius: 0
+  projectilePrefab: {fileID: 0}
+  projectileOrigin: {x: 0.15, y: 0.35}
+  blueSkin: {fileID: 11400000, guid: 634a4bd53909eab49afa8bc5680e8b3d, type: 2}
+  redSkin: {fileID: 11400000, guid: e9f7c644798669e4d985df90385a91d5, type: 2}
+  fallbackBlueSkin: {fileID: 0}
+  fallbackRedSkin: {fileID: 0}
+  fallbackTint: {r: 1, g: 1, b: 1, a: 1}
+  visualScale: 1.35
+  attackSfx: 
+  impactSfx: sword

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad1c7dbb4e096540863886e28ce4e75, type: 3}
+  m_Name: Jitter
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.CardData
+  id: jitter
+  displayName: Jitter
+  description: Three hyperactive goblins with torches. Fast, fragile, and great at
+    swarming big targets.
+  portrait: {fileID: 21300000, guid: a15e8cd137d9584449be072f0ef4c76a, type: 3}
+  fallbackPortrait: {fileID: 0}
+  rarity: 0
+  role: 1
+  elixirCost: 2
+  unlockedByDefault: 1
+  unlockPrice: 0
+  unitCount: 3
+  formationSpacing: 0.55
+  deployTime: 1
+  maxHealth: 120
+  damage: 55
+  hitSpeed: 1
+  attackRange: 0.22
+  sightRange: 4.5
+  moveSpeed: 0.95
+  radius: 0.18
+  mass: 0.6
+  targets: 0
+  attackKind: 0
+  splashRadius: 0
+  projectilePrefab: {fileID: 0}
+  projectileOrigin: {x: 0.15, y: 0.35}
+  blueSkin: {fileID: 11400000, guid: 2e32521b30f7e504e9fa63c43a26fe25, type: 2}
+  redSkin: {fileID: 11400000, guid: d21edb1623cb1da4dac4e044beddf1b5, type: 2}
+  fallbackBlueSkin: {fileID: 0}
+  fallbackRedSkin: {fileID: 0}
+  fallbackTint: {r: 1, g: 1, b: 1, a: 1}
+  visualScale: 0.85
+  attackSfx: 
+  impactSfx: hit

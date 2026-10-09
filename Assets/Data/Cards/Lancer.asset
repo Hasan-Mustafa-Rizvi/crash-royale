@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad1c7dbb4e096540863886e28ce4e75, type: 3}
+  m_Name: Lancer
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.CardData
+  id: lancer
+  displayName: Lancer
+  description: Hits hard from behind his spear. Shreds tanks if you keep the swarm
+    off him.
+  portrait: {fileID: 21300000, guid: 04af7b66e38ea5f4b9794b6df6ba4cc1, type: 3}
+  fallbackPortrait: {fileID: 21300000, guid: 4e815e7d2ad4e974b9bd8b256e6c9f04, type: 3}
+  rarity: 1
+  role: 2
+  elixirCost: 4
+  unlockedByDefault: 1
+  unlockPrice: 0
+  unitCount: 1
+  formationSpacing: 0.45
+  deployTime: 1
+  maxHealth: 900
+  damage: 190
+  hitSpeed: 1.3
+  attackRange: 0.55
+  sightRange: 4.5
+  moveSpeed: 0.55
+  radius: 0.24
+  mass: 2
+  targets: 0
+  attackKind: 0
+  splashRadius: 0
+  projectilePrefab: {fileID: 0}
+  projectileOrigin: {x: 0.15, y: 0.35}
+  blueSkin: {fileID: 11400000, guid: 7a45090e5fc9ebe42a59e288865551aa, type: 2}
+  redSkin: {fileID: 11400000, guid: a9757d6754972024d98a9e46581357fc, type: 2}
+  fallbackBlueSkin: {fileID: 11400000, guid: 634a4bd53909eab49afa8bc5680e8b3d, type: 2}
+  fallbackRedSkin: {fileID: 11400000, guid: e9f7c644798669e4d985df90385a91d5, type: 2}
+  fallbackTint: {r: 1, g: 0.86, b: 0.58, a: 1}
+  visualScale: 1.05
+  attackSfx: 
+  impactSfx: sword

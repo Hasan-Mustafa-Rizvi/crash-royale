@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b70710228659845b7f032fde1cfca1, type: 3}
+  m_Name: Barrel_Blue
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.UnitSkin
+  idle:
+    frames:
+    - {fileID: 1317142836, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    fps: 6
+    loop: 1
+    eventFrame: -1
+  run:
+    frames:
+    - {fileID: 60003856, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: -508533063, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: -794656850, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: 1435724424, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: -152738255, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: 487829982, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    fps: 12
+    loop: 1
+    eventFrame: -1
+  attackSide:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  attackUp:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  attackDown:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  special:
+    frames:
+    - {fileID: 1131420814, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: -1339417186, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    - {fileID: 1608858550, guid: 3f7b34bb9428e3948bf8648d5d928a9a, type: 3}
+    fps: 7
+    loop: 0
+    eventFrame: 2

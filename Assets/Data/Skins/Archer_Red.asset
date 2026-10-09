@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b70710228659845b7f032fde1cfca1, type: 3}
+  m_Name: Archer_Red
+  m_EditorClassIdentifier: CrashRoyale.Runtime::CrashRoyale.Data.UnitSkin
+  idle:
+    frames:
+    - {fileID: -410849307, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 41029445, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1309944417, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -490965446, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -2012698417, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -2044854024, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    fps: 8
+    loop: 1
+    eventFrame: -1
+  run:
+    frames:
+    - {fileID: -81739068, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -335509930, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1042974067, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 693024748, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1919097721, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -760764119, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    fps: 10
+    loop: 1
+    eventFrame: -1
+  attackSide:
+    frames:
+    - {fileID: -494926624, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1574704895, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -946219226, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1950638700, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 310777973, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1699963114, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 210463110, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1272986545, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    fps: 14
+    loop: 0
+    eventFrame: 5
+  attackUp:
+    frames:
+    - {fileID: -1929996508, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 810919744, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1507215457, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1823780295, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -161731687, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1239212522, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 603739117, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -571413981, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    fps: 14
+    loop: 0
+    eventFrame: 5
+  attackDown:
+    frames:
+    - {fileID: 1623694687, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -563710939, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1135228816, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 1757206931, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1368355453, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: 960155917, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1674566762, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    - {fileID: -1198695090, guid: e1abfebfeed33f54e94075582ced6361, type: 3}
+    fps: 14
+    loop: 0
+    eventFrame: 5
+  special:
+    frames: []
+    fps: 10
+    loop: 1
+    eventFrame: -1

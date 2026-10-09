@@ -1,0 +1,57 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+.utmp/
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+sysinfo.txt
+crashlytics-build.properties
+
+# Local scratch
+/_work/
+/_stage/
+/Screenshots/
+
+# Third-party art that may not be redistributed. Download it yourself (see README).
+/Assets/Art/ThirdParty/TinySwordsFreePack/*
+!/Assets/Art/ThirdParty/TinySwordsFreePack/README.md
+!/Assets/Art/ThirdParty/TinySwordsFreePack/README.md.meta
+# The Lancer card portrait is made from that pack too; the repo ships a stand-in (portrait_lancer_fallback.png).
+/Assets/Art/Cards/portrait_lancer.png
+/Assets/Art/Cards/portrait_lancer.png.meta
+
+# Music tracks are not covered for redistribution. Drop your own in (see README).
+/Assets/Audio/Music/*
+!/Assets/Audio/Music/README.md
+!/Assets/Audio/Music/README.md.meta
