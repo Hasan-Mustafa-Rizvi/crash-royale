@@ -16,6 +16,12 @@
   <img src="docs/screens/result.png" width="200" alt="Victory screen">
 </p>
 
+
+
+https://github.com/user-attachments/assets/194956d4-31af-4835-8a22-24b930537006
+
+
+
 ## What it is
 
 You and an AI opponent each get three towers, a hand of cards and a bar of elixir that fills over time. Cards cost
