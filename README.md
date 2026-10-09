@@ -34,7 +34,8 @@ overtime if it's tied.
 
 ## Play
 
-Grab a build from [Releases](../../releases), or play the web build on GitHub Pages.
+**[Play it in your browser](https://hasan-mustafa-rizvi.github.io/crash-royale/)**, or grab a Windows build from
+[Releases](../../releases).
 
 **Controls:** drag a card onto your half of the arena, or tap a card and then tap where it should go. The red area is
 off limits. Esc pauses.
@@ -138,9 +139,10 @@ The regular test suites are in `Assets/Scripts/Tests` and run from Unity's Test 
 ## History
 
 Crash Royale started as a team project for a Fundamentals of Software Engineering course in 2025. I wrote the
-gameplay (troops, towers, combat, animation); my teammates built the original menus. It was put together in about a
-week, and it showed: the opponent didn't spawn troops on the same elixir rules as you, winning and losing didn't both
-work, the decks and chests didn't carry into battles, and going between the menu and a battle could break the game.
+gameplay (troops, towers, combat, animation), [Jaedon Cox](https://www.linkedin.com/in/jaedon-cox/) built the login
+page, and the rest of the team built the original menus. It was put together in about a week, and it showed: the
+opponent didn't spawn troops on the same elixir rules as you, winning and losing didn't both work, the decks and
+chests didn't carry into battles, and going between the menu and a battle could break the game.
 
 In 2026 I rebuilt it into a complete game: the AI opponent, the full match rules, deck building and the shop wired into
 battles, new UI and sound, and the self-test tooling.

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace CrashRoyale.UI
 {
-    /// <summary>First-launch name entry (replaces the old fake login). Also used to change the name later.</summary>
+    /// <summary>First-launch name entry (replaces the original login screen). Also used to change the name later.</summary>
     public class NamePrompt : MonoBehaviour
     {
         [SerializeField] private GameObject panel;
